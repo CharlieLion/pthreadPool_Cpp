@@ -4,6 +4,8 @@
 #include"threadpool.cpp"
 
 
+//测试主文件，用于调用线程池与开启函数通信
+
 void taskFunc(void* arg)
 {
     int* num = static_cast<int*>(arg);

@@ -13,7 +13,7 @@ void taskFunc(void* arg)
 
 int main()
 {
-    ThreadPool<int> pool(3,6);
+    ThreadPool<int> pool(2,10);
     for(int i=0;i<100;i++)
     {
         int* num = new int(i+100);
